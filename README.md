@@ -8,10 +8,10 @@ Harmonia is a compassionate and inclusive mental health and emotional support ch
 # 🚀How to Set Up and Run the Project
 - **Prerequisites:**
   - Python 3.8 or higher: Ensure Python is installed on your system.
-  - Google API Key: Obtain a Google API key to use the Gemini model.
+  - NVIDIA API Key: Obtain an NVIDIA API key to use the Llama 3.1 model
 - **Step 1: Clone the Repository:**
   
-  ``` git clone https://github.com/your-username/Harmonia.git ```
+  ``` git clone https://github.com/NadElSaid/Harmonia.git ```
   
      ``` cd Harmonia ```
 - **Step 2: Install Dependencies:**
@@ -19,7 +19,7 @@ Harmonia is a compassionate and inclusive mental health and emotional support ch
   
     ```pip install -r requirements.txt```
 - **Step 3: Set Up Google API Key:**
-   replace "your_google_api_key" in the code with your actual API key.
+   replace "NVIDIA API key" in the code with your actual API key.
 - **Step 4: Add the PDF File**
   
   Place the Harmonia.pdf file in the root directory of the project. This file is used to enhance the chatbot's knowledge base.
@@ -31,15 +31,13 @@ Harmonia is a compassionate and inclusive mental health and emotional support ch
 # 📦Dependencies and Tools Used
 - **Python Libraries:**
   - **langchain:** For building the conversational chain and integrating with the Gemini model.
-  - **langchain_google_genai:** For using Google's Generative AI models.
+  - **langchain-nvidia-ai-endpoints:** For using NVIDIA's AI models.
   - **gradio:** For creating the user interface.
   - **PyPDF2:** For loading and processing the PDF file.
   - **chromadb:** For vector storage and retrieval.
 - **Tools:**
-  - **Google Gemini API:** For generating responses using the gemini-2.0-flash-exp model.
+  - **NVIDIA AI Endpoints:** For accessing powerful AI models.
   - **Hugging Face Spaces:** For deploying the application (optional).
 # 🤖Try it out
-- https://huggingface.co/spaces/Nadaazakaria/Harmonia
-# Demo Video
-- **Youtube:** https://youtu.be/8Ahmof1izfA
-- **Loom:** https://www.loom.com/share/a0ffa180840f41a4abaab8869530521c?sid=aa5e92ad-5c99-4211-a09c-47c6ba3fe0c6
+- [https://huggingface.co/spaces/Nadaazakaria/Harmonia](https://huggingface.co/spaces/Nadaazakaria/Harmonia)
+
