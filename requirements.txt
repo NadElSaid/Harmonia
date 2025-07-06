@@ -1,0 +1,7 @@
+gradio
+langchain-google-genai
+pypdf
+chromadb
+langchain
+langchain_community
+langchain-nvidia-ai-endpoints
